@@ -1,0 +1,61 @@
+label,input,select  {
+    margin:5px
+}
+body {
+    background-image: url('https://wallpapers.com/images/featured/lo-fi-mvqzjym6ie17firw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #495057;
+    
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+
+  .example {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
+
+header{
+    font-family: 'Anton';
+    opacity: 100%;
+}
+
+a:hover{
+    background-color: #7f858b;
+}
+
+.fullOp{
+    opacity: 1 !important;
+}
+section {
+    padding: 2em;
+    opacity: 90%;
+    text-overflow: clip;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: #fff;
+}
+header,footer,nav{
+    background: rgb(46,50,55);
+    background: radial-gradient(circle, rgba(46,50,55,1) 80%, rgba(39,33,40,1) 100%); 
+}
+div>ul{
+    
+    margin:0 auto;
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    
+    
+    border-radius:8px ;
+    color: #fff;
+}
+
+
